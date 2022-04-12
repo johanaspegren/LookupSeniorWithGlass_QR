@@ -64,7 +64,7 @@ public class MainActivity extends BaseActivity {
   // extra parameter, fire and forget :-)
   // NOTE: We expect this text string to follow the format "uid001"
   private void startCard(String who) {
-    Intent i = new Intent("com.example.android.glass.cardsample.FOO");
+    Intent i = new Intent("com.example.android.glass.seniorinfo.FOO");
     i.putExtra(WHO, who);
     startActivity(i);
   }
